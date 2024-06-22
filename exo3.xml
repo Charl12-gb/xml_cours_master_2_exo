@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<cave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="exo3.xsd">
+    <bouteille>
+        <marque>Cristaline</marque>
+        <composition>
+            <ion type="positif">calcium 71mg/l</ion>
+            <ion type="negatif">nitrate 1mg/l</ion>
+        </composition>
+        <source>
+            <ville>Cotonou</ville>
+            <departement>Littoral</departement>
+        </source>
+        <code_barre>3274080005003</code_barre>
+        <contenance unit="cl">150</contenance>
+        <ph valeur='7,45' />
+    </bouteille>
+    <bouteille>
+        <marque>Volvic</marque>
+        <composition>
+            <ion type="positif">calcium 11,5mg/l</ion>
+            <ion type="negatif">nitrate 6,3mg/l</ion>
+        </composition>
+        <source>
+            <ville>Parakou</ville>
+            <departement>Borgou</departement>
+        </source>
+        <code_barre>3057640117008</code_barre>
+        <contenance unit="cl">50</contenance>
+        <ph valeur='7' />
+    </bouteille>
+</cave>

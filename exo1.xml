@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<repertoire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="exo1.xsd">
+    <personne sexe="Femme">
+        <nom>Dassi</nom>
+        <prenom>Colis</prenom>
+        <adresse>
+            <pays>Benin</pays>
+            <departement>Litoral</departement>
+            <ville>Cotonou</ville>
+            <maison>Hous</maison>
+        </adresse>
+        <telephones>
+            <telephone type="fixe">01 02 03 04 05</telephone>
+            <telephone type="portable">06 07 08 09 10</telephone>
+        </telephones>
+        <emails>
+            <email type="adresse personnelle">dassi@gmail.com</email>
+            <email type="professionnelle">dassi@gmail.com</email>
+        </emails>
+    </personne>
+    <personne sexe="Homme">
+        <nom>Dupont</nom>
+        <prenom>Jean</prenom>
+        <adresse>
+            <pays>Benin</pays>
+            <departement>Litoral</departement>
+            <ville>Cotonou</ville>
+            <maison>Hous</maison>
+        </adresse>
+        <telephones>
+            <telephone type="fixe">01 02 03 04 05</telephone>
+        </telephones>
+        <emails>
+            <email type="adresse personnelle">dassi@gmail.com</email>
+        </emails>
+    </personne>
+</repertoire>

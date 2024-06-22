@@ -1,0 +1,18 @@
+- Téléchargement de fop 
+- Ajouter fop au variables d'environnement
+
+- Installer wkhtmltopdf
+- Ajouter au variable d'environnement
+
+Exécuter le script
+
+1. CMD1
+```
+fop -xml eleves.xml -xsl bulletin.xsl -foout bulletin.html
+```
+
+2. CM2
+
+```
+wkhtmltopdf bulletin.html bulletin.pdf
+```

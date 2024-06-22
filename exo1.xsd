@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="repertoire">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="personne" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nom" type="xsd:string" />
+                            <xsd:element name="prenom" type="xsd:string" />
+                            <xsd:element name="adresse">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="pays" type="xsd:string" />
+                                        <xsd:element name="departement" type="xsd:string" />
+                                        <xsd:element name="ville" type="xsd:string" />
+                                        <xsd:element name="maison" type="xsd:string" />
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="telephones">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="telephone" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:simpleContent>
+                                                    <xsd:extension base="xsd:string">
+                                                        <xsd:attribute name="type" use="required" type="xsd:string" />
+                                                    </xsd:extension>
+                                                </xsd:simpleContent>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="emails">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="email" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:simpleContent>
+                                                    <xsd:extension base="xsd:string">
+                                                        <xsd:attribute name="type" use="required" type="xsd:string" />
+                                                    </xsd:extension>
+                                                </xsd:simpleContent>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="sexe" use="required" type="xsd:string" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<classe>
+    <nom_classe>L3</nom_classe>
+    <eleve ident="L301">
+        <nom>
+            <prenom>Judicael</prenom>
+            <patronyme>José</patronyme>
+        </nom>
+        <adresse>
+            <ville>Cotonou</ville>
+            <quartier>Sénadé</quartier>
+            <lot>34</lot>
+            <maison>Judicael</maison>
+        </adresse>
+        <naiss>1990-12-13</naiss>
+        <resultats>
+            <trimestre num="1">
+                <controle>
+                    <francais>12</francais>
+                    <anglais>14</anglais>
+                    <math>9</math>
+                    <physique>6</physique>
+                </controle>
+                <examen>
+                    <francais>12</francais>
+                    <anglais>16</anglais>
+                    <math>12</math>
+                    <physique>13</physique>
+                </examen>
+            </trimestre>
+            <trimestre num="2">
+                <controle>
+                    <francais>13</francais>
+                    <anglais>16</anglais>
+                    <math>13</math>
+                    <physique>5</physique>
+                </controle>
+                <examen>
+                    <francais>10</francais>
+                    <anglais>17</anglais>
+                    <math>10</math>
+                    <physique>10</physique>
+                </examen>
+            </trimestre>
+        </resultats>
+    </eleve>
+    <eleve ident="L302">
+        <nom>
+            <prenom>Zinsou</prenom>
+            <patronyme>Zossou</patronyme>
+        </nom>
+        <adresse>
+            <ville>Cotonou</ville>
+            <quartier>Fidjrossè</quartier>
+            <lot>44</lot>
+            <maison>Zinsou</maison>
+        </adresse>
+        <naiss>1991-05-18</naiss>
+        <resultats>
+            <trimestre num="1">
+                <controle>
+                    <francais>12</francais>
+                    <anglais>14</anglais>
+                    <math>9</math>
+                    <physique>6</physique>
+                </controle>
+                <examen>
+                    <francais>12</francais>
+                    <anglais>16</anglais>
+                    <math>12</math>
+                    <physique>13</physique>
+                </examen>
+            </trimestre>
+            <trimestre num="2">
+                <controle>
+                    <francais>14</francais>
+                    <anglais>15</anglais>
+                    <math>10</math>
+                    <physique>16</physique>
+                </controle>
+                <examen>
+                    <francais>17</francais>
+                    <anglais>6</anglais>
+                    <math>2</math>
+                    <physique>18</physique>
+                </examen>
+            </trimestre>
+        </resultats>
+    </eleve>
+</classe>

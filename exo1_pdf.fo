@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <fo:layout-master-set>
+        <fo:simple-page-master master-name="simpleA4" page-width="210mm" page-height="297mm">
+            <fo:region-body margin="1in"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    <fo:page-sequence master-reference="simpleA4">
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block font-size="20pt" font-weight="bold" text-align="center">Exemple de fichier XSL-FO</fo:block>
+            <fo:block font-size="12pt" text-align="justify">Ceci est un exemple de contenu pour un fichier XSL-FO.</fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>

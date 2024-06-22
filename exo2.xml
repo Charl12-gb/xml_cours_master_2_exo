@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<pays xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="exo2.xsd">
+    <departement nom="Littoral">
+        <communes>
+            <commune nom="Cotonou"/>
+            <commune nom="Parakou"/>
+        </communes>
+    </departement>
+</pays>
